@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Registration Card</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <h1>Registration</h1>
+        <form>
+          <div class="row">
+            <div class="col">
+              <p>Full Name</p>
+              <input type="text" placeholder="Enter your name" />
+            </div>
+            <div class="col">
+              <p>Username</p>
+              <input type="text" placeholder="Enter your username" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <p>Email</p>
+              <input type="text" placeholder="Enter your email" />
+            </div>
+            <div class="col">
+              <p>Phone Number</p>
+              <input type="text" placeholder="Enter your number" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <p>Password</p>
+              <input type="password" placeholder="Enter your password" />
+            </div>
+            <div class="col">
+              <p>Confirm Password</p>
+              <input type="password" placeholder="Confirm password" />
+            </div>
+          </div>
+          <div class="row-radio">
+            <p>Gender</p>
+            <div class="col">
+              <input type="radio" name="Male" id="male" /> Male
+              <input type="radio" name="Female" id="female" /> Female
+              <input type="radio" name="Other" id="other" /> Other
+            </div>
+          </div>
+          <div class="row-submit">
+            <button type="button" id="cancel">Cancel</button>
+            <button type="button" id="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
